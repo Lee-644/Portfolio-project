@@ -51,6 +51,15 @@
     padding-bottom: 20px;
     text-align: center; 
   }
+    
+  h5 {
+    font-size: 30px;
+    color: #E1D9CA;
+    font-family: "Barlow", sans-serif; 
+    font-weight: 400;
+    margin: 0px;
+    text-align: center; 
+  }
   
   body {
     color: #E1D9CA; 
@@ -252,9 +261,9 @@
     }
     
     #contact {
-      display: flex;
+      display: flex; 
       flex-flow: row nowrap;
-      justify-content: space-between;
+      justify-content: center; 
       align-items: center;
       margin-top: 80px;
       margin-left: 100px;
@@ -264,6 +273,25 @@
       padding-right: 30px;
       padding-left: 30px;
       border-radius: 25px;
+    }
+    
+    #contact th, td {
+      border: 1px solid white;
+      border-radius: 10px;
+      padding: 45px;
+      text-align: center; /* Ensure text is centered when needed */
+    }
+
+    td .flex-content {
+      display: flex; /* Enable flexbox inside the wrapper */
+      align-items: center; /* Vertically align items */
+      gap: 10px; /* Add space between the image and text */
+      justify-content: center; /* Center items horizontally */
+    }
+
+    td img {
+      height: 30px; /* Adjust the size of the LinkedIn icon */
+      width: auto; /* Maintain aspect ratio */
     }
     
   </style>
@@ -379,16 +407,24 @@
     Contact Me!
   </h3>
   <div id="contact">
-    <h4>
-      Currently attending
-    </h4>
-    <h4>
-      Email me
-    </h4>
-    <h4>
-      Message me
-    </h4>
-  </div>
+    <table>
+  <tr>
+    <th><h4>Currently attending</h4></th>
+    <th><h4>Email me</h4></th>
+    <th><h4>Message me</h4></th>
+  </tr>
+  <tr>
+    <td><h5>University of Waterloo</h5></td>
+    <td><a href="mailto:lgolan@uwaterloo.ca"><h5>lgolan@uwaterloo.ca</h5></a></td>
+    <td>
+      <div class="flex-content">
+      <img src="LinkedIn.png" alt="LinkedIn logo in white">
+      <a href="www.linkedin.com/in/lee-g-2239121b0"><h5>Lee Golan</h5></a>
+      </div>
+    </td>
+  </tr> 
+</table>
+</div>
 </div>
   
 </body>
