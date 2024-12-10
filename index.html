@@ -36,7 +36,18 @@
     font-family: "Italiana", serif; 
     font-weight: 100;
     margin: 0px;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center; 
+  }
+    
+  h4 {
+    font-size: 45px;
+    color: #E1D9CA;
+    font-family: "Italiana", serif; 
+    font-weight: 100;
+    margin: 0px;
+    padding-top: 30px;
     padding-bottom: 20px;
     text-align: center; 
   }
@@ -55,20 +66,21 @@
       height: 1000px; 
     }
     
-     #section3, #section4 {
-        height: 1000px;  
-      }
-    
     #section1 {
       height: 750px;  
     }
     
     #section2 {
-      height: 1500px;  
+      height: 1300px;  
+    }
+    
+    #section3 {
+      height: 850px;
     }
   
-    #section3 { background-color: #8b2e25; }
-    #section4 { background-color: #787254; }
+    #section4 {
+      height: 1000px;  
+    }
     
     #nav ul {
       list-style: none;
@@ -204,6 +216,56 @@
       border-radius: 25px;
     }
     
+    #products {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0px;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+    
+    #products img {
+      width: 300px;
+      height: auto;
+    }
+    
+    #logos {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 80px;
+      margin-left: 100px;
+      margin-right: 100px;
+      background-color: #8C886A;
+      padding: 50px;
+      padding-right: 30px;
+      padding-left: 30px;
+      border-radius: 25px;
+    }
+    
+    #logos img {
+      width: 200px;
+      height: auto;
+    }
+    
+    #contact {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 80px;
+      margin-left: 100px;
+      margin-right: 100px;
+      background-color: #8C886A;
+      padding: 50px;
+      padding-right: 30px;
+      padding-left: 30px;
+      border-radius: 25px;
+    }
+    
   </style>
   
 <h1>
@@ -220,7 +282,7 @@
       <li><a href="#section0">About Me</a></li>
       <li><a href="#section1">Posters</a></li>
       <li><a href="#section2">Interface Design</a></li>
-      <li><a href="#section3">Product Design</a></li>
+      <li><a href="#section3">Product Redesign</a></li>
       <li><a href="#section4">Contact Me</a></li>
     </ul>
   </nav>
@@ -289,16 +351,43 @@
 </div>
   
 <div id="section3"> <!--interface design--> 
-Your amazing content goes here!
   <div id="line4">
     <hr>
+  </div>
+  <h3>
+    Product Redesign
+  </h3>
+  <div id="products">
+    <img src="cetaphil blue bottle 1.png" alt="oily skin cleanser bottle with dark blue and white colour, pump top">
+    <img src="cetaphil green bottle 1.png" alt="dry to normal skin cleanser bottle with light green and white colour, pump top">
+    <img src="cetaphil light green moisturizer 1.png" alt="dry to normal skin moisturizer bottle with light green and white colour, light green cap">
+    <img src="cetaphil dark green moisturizer 1.png" alt="very dry skin moisturizer bottle with dark green and white colour, dark green cap">
+  </div>
+  <div id="logos">
+    <img src="cetaphil blue no text 1.png" alt="redesigned cetaphil logo with dark blue lettering and blue i">
+    <img src="cetaphil aqua no text 1.png" alt="redesigned cetaphil logo with dark blue lettering and aqua i">
+    <img src="cetaphil green logo no text 1.png" alt="redesigned cetaphil logo with dark blue lettering and green i">
+    <img src="cetaphil dark green no text 1.png" alt="redesigned cetaphil logo with dark blue lettering and dark green i">
   </div>
 </div>
   
 <div id="section4"> <!--contact me--> 
-Your amazing content goes here!
   <div id="line5">
     <hr>
+  </div>
+  <h3>
+    Contact Me!
+  </h3>
+  <div id="contact">
+    <h4>
+      Currently attending
+    </h4>
+    <h4>
+      Email me
+    </h4>
+    <h4>
+      Message me
+    </h4>
   </div>
 </div>
   
