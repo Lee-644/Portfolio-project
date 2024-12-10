@@ -60,7 +60,7 @@
       }
     
     #section1 {
-      height: 750px; 
+      height: 750px;  
     }
     
     #section2 {
@@ -110,22 +110,33 @@
       margin-right: auto;
     }
     
+    .lineup {
+      margin: 50px;
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row nowrap;
+      align-items: center;
+      padding: 0;
+    }
+    
     #bio p {
-      margin-left: 100px;
       background-color: #596A73;
       color: #FAF1E0;
       padding: 50px;
       border-radius: 25px;
-      margin-right: 670px; /*so rectangle is cut off*/
+      width: 60%;
       text-align: justify; 
+      height: 30%;
+      display: block;
     }
     
     #portrait img {
       border-radius: 25px;
-      height: 470px;
-      width: 400px;
-      margin-left: 885px;
-      margin-top: -480px;
+      height: auto;
+      width: 100%;
+      margin-right: 300;
+      object-fit: cover; 
+      display: block; 
     }
     
     #apps {
@@ -142,7 +153,7 @@
       padding-left: 80px;
       border-radius: 25px;
     }
-    
+ 
     #posters {
       display: flex;
       flex-flow: row nowrap;
@@ -175,7 +186,22 @@
     
     #phones img {
       width: 350px;
-      height: 600px;
+      height: 650px;
+    }
+    
+    #cat {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 80px;
+      margin-left: 100px;
+      margin-right: 100px;
+      background-color: #596A73;
+      padding: 20px;
+      padding-right: 100px;
+      padding-left: 20px;
+      border-radius: 25px;
     }
     
   </style>
@@ -207,20 +233,23 @@
   <h3>
     About Me
   </h3>
+  <div class="lineup">
     <div id="bio">
       <p>
         I am a designer. Whether it’s product, advertising, or magazines, I do it all. Attending the Stratford School of Interaction Design and Business, we had a multifaceted education not only focused on design, but also business. Currently, I am studying for a minor in economics, which furthers my skills and understanding of not only the design aspect, but the business aspect of design as well. I am well-versed in Adobe apps such as Photoshop, Illustrator and InDesign, as well as Figma. When it comes to my design philosophy, I seek to design creative and intuitive products. It is important that my designs look good but are still functional in whatever purpose they need to have to remain engaging for the user. Design is something I have come to truly love, so I hope to continue improving and growing as a designer.
       </p>
+    </div>
+    
     <div id="portrait">
       <img src="portrait.JPG" alt="portrait photo of myself, (black hair, septum piercing, black shirt)">
     </div>
+</div>
     <div id="apps">
       <img src="photoshop png 1.png" alt="photoshop logo icon, light blue P with dark blue background">
       <img src="illustrator logo 1.png" alt="illustrator logo icon, light yellow A with dark orange background">
       <img src="indesign png 1.png" alt="indesign logo icon, light pink D with dark pink/reddish background">
       <img src="figma 1.png" alt="figma logo icon, multi-coloured bubble F with black background">
     </div>
-  </div>
 </div>
   
 <div id="section1"> <!--posters--> 
@@ -245,11 +274,18 @@
   <h3>
     Interface Design
   </h3>
-    <div id="phones">
-      <img src="community page.png" alt="community forum page, (light yellow and blue, multiple forum posts, cat vector background)">
-      <img src="write a post.png" alt="write a post page, (light yellow and blue, two blue boxes for title and body text, cat vector background)">
-      <img src="post page.png" alt="post page, (light yellow and blue, a question with multiple replies, cat vector background)">
-    </div>
+  <div id="phones">
+    <img src="community page.png" alt="community forum page, (light yellow and blue, multiple forum posts, cat vector background)">
+    <img src="write a post.png" alt="write a post page, (light yellow and blue, two blue boxes for title and body text, cat vector background)">
+    <img src="post page.png" alt="post page, (light yellow and blue, a question with multiple replies, cat vector background)">
+  </div>
+  <div id="cat">
+    <h3>
+      Vectors from scratch
+    </h3>
+    <img src="stretching cat.png" alt="yellow cat in a stretching pose">
+    <img src="cat with yarn.png" alt="yellow cat on its back playing with yarn">
+  </div>
 </div>
   
 <div id="section3"> <!--interface design--> 
