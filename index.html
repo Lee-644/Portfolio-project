@@ -55,15 +55,18 @@
       height: 1000px; 
     }
     
-     #section2, #section3, #section4 {
+     #section3, #section4 {
         height: 1000px;  
       }
     
     #section1 {
-      height: 900px; 
+      height: 750px; 
+    }
+    
+    #section2 {
+      height: 1500px;  
     }
   
-    #section2 { background-color: #423711; }
     #section3 { background-color: #8b2e25; }
     #section4 { background-color: #787254; }
     
@@ -108,11 +111,10 @@
     }
     
     #bio p {
-      margin-left: 140px;
+      margin-left: 100px;
       background-color: #596A73;
       color: #FAF1E0;
-      padding: 35px;
-      padding-bottom: 50px;
+      padding: 50px;
       border-radius: 25px;
       margin-right: 670px; /*so rectangle is cut off*/
       text-align: justify; 
@@ -120,10 +122,10 @@
     
     #portrait img {
       border-radius: 25px;
-      height: 450px;
+      height: 470px;
       width: 400px;
-      margin-left: 840px;
-      margin-top: -465px;
+      margin-left: 885px;
+      margin-top: -480px;
     }
     
     #apps {
@@ -132,8 +134,8 @@
       justify-content: space-between;
       align-items: center;
       margin-top: 70px;
-      margin-left: 150px;
-      margin-right: 150px;
+      margin-left: 100px;
+      margin-right: 100px;
       background-color: #596A73;
       padding: 50px;
       padding-right: 80px;
@@ -146,14 +148,34 @@
       flex-flow: row nowrap;
       justify-content: space-between;
       align-items: center;
-      margin-top: 70px;
-      margin-left: 80px;
-      margin-right: 80px;
+      margin-top: 20px;
+      margin-left: 100px;
+      margin-right: 100px;
       background-color: #8C886A;
       padding: 50px;
       padding-right: 30px;
       padding-left: 30px;
       border-radius: 25px;
+    }
+    
+    #posters img {
+      width: 250px;
+      height: auto;
+    }
+    
+    #phones {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+    
+    #phones img {
+      width: 350px;
+      height: 600px;
     }
     
   </style>
@@ -171,8 +193,8 @@
     <ul>
       <li><a href="#section0">About Me</a></li>
       <li><a href="#section1">Posters</a></li>
-      <li><a href="#section2">Product Design</a></li>
-      <li><a href="#section3">Interface Design</a></li>
+      <li><a href="#section2">Interface Design</a></li>
+      <li><a href="#section3">Product Design</a></li>
       <li><a href="#section4">Contact Me</a></li>
     </ul>
   </nav>
@@ -208,19 +230,26 @@
   <h3>
     Posters
   </h3>
-      <div id="posters">
-      <img src="artboard 1 .png" alt="photoshop logo icon, light blue P with dark blue background">
-      <img src="artboard 3.png" alt="illustrator logo icon, light yellow A with dark orange background">
-      <img src="artboard 2 .png" alt="indesign logo icon, light pink D with dark pink/reddish background">
-      <img src="artboard 4 .png" alt="figma logo icon, multi-coloured bubble F with black background">
+    <div id="posters">
+      <img src="artboard 1 .png" alt="one of four posters">
+      <img src="artboard 3.png" alt="one of four posters">
+      <img src="artboard 2 .png" alt="one of four posters">
+      <img src="artboard 4 .png" alt="one of four posters">
     </div>
 </div>
   
 <div id="section2"> <!--product design--> 
-Your amazing content goes here!
   <div id="line3">
     <hr>
   </div>
+  <h3>
+    Interface Design
+  </h3>
+    <div id="phones">
+      <img src="community page.png" alt="community forum page, (light yellow and blue, multiple forum posts, cat vector background)">
+      <img src="write a post.png" alt="write a post page, (light yellow and blue, two blue boxes for title and body text, cat vector background)">
+      <img src="post page.png" alt="post page, (light yellow and blue, a question with multiple replies, cat vector background)">
+    </div>
 </div>
   
 <div id="section3"> <!--interface design--> 
