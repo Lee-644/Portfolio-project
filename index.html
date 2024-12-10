@@ -282,16 +282,48 @@
       text-align: center; /* Ensure text is centered when needed */
     }
 
+    #contact td a h5 {
+      color: #E1D9CA;
+      text-decoration: underline;
+    }
+    
+    #contact td a:hover h5 {
+      color: #413F31;
+      text-decoration: underline;
+    }
+    
+    #contact td a:active h5 {  
+      color: #95B0BF;
+      text-decoration: underline;
+    }
+    
     td .flex-content {
-      display: flex; /* Enable flexbox inside the wrapper */
-      align-items: center; /* Vertically align items */
-      gap: 10px; /* Add space between the image and text */
-      justify-content: center; /* Center items horizontally */
+      display: flex;
+      align-items: center; 
+      gap: 10px; 
+      justify-content: center; 
+      text-decoration: underline;
+    }
+    
+    td .flex-content h5 {
+      color: #E1D9CA;
+      text-decoration: underline;
+    }
+    
+    td:hover .flex-content h5 {
+      color: #413F31;
+      text-decoration: underline;
+    }
+    
+    td:active .flex-content h5 {
+      color: #95B0BF;
+      text-decoration: underline;
     }
 
+
     td img {
-      height: 30px; /* Adjust the size of the LinkedIn icon */
-      width: auto; /* Maintain aspect ratio */
+      height: 30px; 
+      width: auto; 
     }
     
   </style>
@@ -414,10 +446,10 @@
     <th><h4>Message me</h4></th>
   </tr>
   <tr>
-    <td><h5>University of Waterloo</h5></td>
+    <td><a href="https://uwaterloo.ca"><h5>University of Waterloo</h5></a></td>
     <td><a href="mailto:lgolan@uwaterloo.ca"><h5>lgolan@uwaterloo.ca</h5></a></td>
     <td>
-      <div class="flex-content">
+      <div class="flex-content"> 
       <img src="LinkedIn.png" alt="LinkedIn logo in white">
       <a href="www.linkedin.com/in/lee-g-2239121b0"><h5>Lee Golan</h5></a>
       </div>
